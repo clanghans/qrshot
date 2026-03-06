@@ -1,0 +1,9 @@
+[package]
+name = "qrshot"
+version = "1.0.0"
+edition = "2021"
+description = "Generate QR codes in your terminal using Unicode block characters"
+authors = ["qrshot contributors"]
+
+[dependencies]
+qrcode = { version = "=0.14.1", default-features = false }
